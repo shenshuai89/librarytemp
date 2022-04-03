@@ -8,8 +8,9 @@
 </head>
 <body>
     <script src="../dist/<%=projectName%>.umd.min.js"></script>
-    <script>
-        let {sum} = `<%=projectName%>`;
+    <script >
+        // 引入全局对象，这里需要修改 [projectName] 变量
+        let {sum} = <%=projectName%>;
         console.log(sum(1,2));
     </script>
 </body>
