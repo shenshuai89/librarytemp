@@ -7,9 +7,9 @@
     <title>test sunfunction</title>
 </head>
 <body>
-    <script src="../dist/librarytemp.umd.min.js"></script>
+    <script src="../dist/<%=projectName%>.umd.min.js"></script>
     <script>
-        let {sum} = librarytemp;
+        let {sum} = "<%=projectName%>";
         console.log(sum(1,2));
     </script>
 </body>
