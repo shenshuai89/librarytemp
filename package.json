@@ -1,11 +1,11 @@
 {
-  "name": "librarytemp",
+  "name": "<%=projectName%>",
   "version": "1.0.0",
   "description": "<%=description%>",
-  "main": "dist/librarytemp.umd.min.js",
-  "module": "dist/librarytemp.esm.js",
-  "unpkg": "dist/librarytemp.js",
-  "jsdelivr": "dist/librarytempjs",
+  "main": "dist/<%=projectName%>.umd.min.js",
+  "module": "dist/<%=projectName%>.esm.js",
+  "unpkg": "dist/<%=projectName%>.js",
+  "jsdelivr": "dist/<%=projectName%>js",
   "scripts": {
     "dev": "rollup -w --environment NODE_ENV:development -c scripts/rollup.config.dev.js",
     "build": "rollup --environment NODE_ENV:development -c scripts/rollup.config.prod.js",
@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shenshuai89/librarytemp.git"
+    "url": "https://github.com/<%=author%>/<%=projectName%>.git"
   },
   "bugs": {
-    "url": "https://github.com/shenshuai89/librarytemp/issues"
+    "url": "https://github.com/<%=author%>/<%=projectName%>/issues"
   },
-  "homepage": "https://github.com/shenshuai89/librarytemp#readme",
+  "homepage": "https://github.com/<%=author%>/<%=projectName%>#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
