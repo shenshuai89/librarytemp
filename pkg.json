@@ -8,8 +8,9 @@
     "name": "description",
     "message": "description?"
   }, {
-    "type": "input",
+    "type": "list",
     "name": "license",
-    "message": "license?"
+    "message": "license?",
+    "choices": ["MIT", "GPL", "BSD", "Mozilla", "Apache", "LGPL"]
   }
 ]
