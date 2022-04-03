@@ -2,15 +2,18 @@
   {
     "type": "input",
     "name": "author",
-    "message": "author?"
+    "message": "author?",
+    "default":""
   }, {
     "type": "input",
     "name": "description",
-    "message": "description?"
+    "message": "description?",
+    "default": "create npmjs package."
   }, {
     "type": "list",
     "name": "license",
     "message": "license?",
-    "choices": ["MIT", "GPL", "BSD", "Mozilla", "Apache", "LGPL"]
+    "choices": ["MIT", "GPL", "BSD", "Mozilla", "Apache", "LGPL"],
+    "default": "MIT"
   }
 ]
