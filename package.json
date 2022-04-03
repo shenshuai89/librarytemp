@@ -34,14 +34,6 @@
       "eslint --cache --fix"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<%=author%>/<%=projectName%>.git"
-  },
-  "bugs": {
-    "url": "https://github.com/<%=author%>/<%=projectName%>/issues"
-  },
-  "homepage": "https://github.com/<%=author%>/<%=projectName%>#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
