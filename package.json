@@ -52,7 +52,7 @@
     "examples"
   ],
   "author": "<%=author%>",
-  "license": "<%=alicense%>",
+  "license": "<%=license%>",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/eslint-parser": "^7.17.0",
