@@ -1,7 +1,7 @@
 {
   "name": "librarytemp",
   "version": "1.0.0",
-  "description": "发布npm包，整套流程开发demo",
+  "description": "<%=description%>",
   "main": "dist/librarytemp.umd.min.js",
   "module": "dist/librarytemp.esm.js",
   "unpkg": "dist/librarytemp.js",
@@ -51,8 +51,8 @@
     "dist",
     "examples"
   ],
-  "author": "shenshuai89",
-  "license": "ISC",
+  "author": "<%=author%>",
+  "license": "<%=alicense%>",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/eslint-parser": "^7.17.0",
